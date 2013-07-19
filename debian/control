@@ -1,0 +1,12 @@
+Source: ros-hydro-rocon
+Section: misc
+Priority: extra
+Maintainer: "Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>, HyungRyul Kim <hrkim@yujinrobot.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://www.robotconcert.org/
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rocon
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-rocon-app-platform, ros-hydro-rocon-concert, ros-hydro-rocon-msgs, ros-hydro-rocon-multimaster, ros-hydro-rocon-rqt-plugins, ros-hydro-rocon-tutorials
+Description: This is a meta package for robotics in concert(a.k.a rocon)
