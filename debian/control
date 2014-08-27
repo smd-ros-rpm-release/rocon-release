@@ -1,0 +1,12 @@
+Source: ros-indigo-rocon
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://www.robotconcert.org/
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rocon
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-concert-services, ros-indigo-rocon-app-platform, ros-indigo-rocon-concert, ros-indigo-rocon-msgs, ros-indigo-rocon-multimaster, ros-indigo-rocon-qt-gui, ros-indigo-rocon-tools, ros-indigo-rocon-tutorials
+Description: This is a meta package for robotics in concert(a.k.a rocon)
